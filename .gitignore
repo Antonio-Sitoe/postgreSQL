@@ -1,0 +1,35 @@
+# PostgreSQL database data directories
+**/data/
+
+# PostgreSQL specific files
+*.pid
+*.opts
+postmaster.pid
+postmaster.opts
+postgresql.auto.conf
+
+# Database backup files
+*.sql.gz
+*.dump
+*.backup
+
+# Log files
+*.log
+logs/
+
+# Environment files with sensitive data
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
