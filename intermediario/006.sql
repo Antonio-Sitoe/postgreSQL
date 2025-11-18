@@ -1,0 +1,3 @@
+SELECT *
+FROM lancamento
+WHERE valor BETWEEN 500 AND 2000
