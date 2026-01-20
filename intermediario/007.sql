@@ -1,3 +1,0 @@
-SELECT *
-FROM cliente
-WHERE nota BETWEEN 5 AND 10;
