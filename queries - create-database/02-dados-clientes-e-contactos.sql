@@ -69,7 +69,8 @@
   ('Atacado Global LTDA','12.345.678/0001-68','776655443','vendas@atacadoglobal.com','(71) 93111-0068','40210-000','Rod. BR-324, Km 20','s/n',NULL,'Salvador','BA',6.9,'ATIVO','PENDENTE'),
   ('Mecânica Rápida ME','12.345.678/0001-69','665544332','contato@mecrapida.com','(81) 93000-0069','50210-000','Rua Engenho, 100','100',NULL,'Recife','PE',8.3,'ATIVO','PAGO'),
   ('Loja Teen LTDA','12.345.678/0001-70','554433221','vendas@lojateen.com','(85) 92999-0070','60210-000','Av. Juventude, 11','11',NULL,'Fortaleza','CE',7.8,'INATIVO','PENDENTE'),
-  ('Consultoria Fiscal ME','12.3INSERT INTO contacto (nome, departamento, email, cpf, telefone, situacao, cliente_id) VALUES
+  
+  INSERT INTO contacto (nome, departamento, email, cpf, telefone, situacao, cliente_id) VALUES
   ('Ana Souza', 'Vendas', 'ana.souza@example.com', '324.598.217-02', '(11) 98845-2334', 'ATIVO', 32),
   ('Bruno Lima', 'Financeiro', 'bruno.lima@example.com', '821.754.930-12', '(21) 99233-1199', 'INATIVO', 77),
   ('Carla Mendes', 'RH', 'carla.mendes@example.com', '102.938.475-00', '(31) 99122-3304', 'ATIVO', 15),
