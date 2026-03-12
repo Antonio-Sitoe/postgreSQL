@@ -1,0 +1,1 @@
+-- Listar todos os nomes empresariais de clientes e fornecedores
